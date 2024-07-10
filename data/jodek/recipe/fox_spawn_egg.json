@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#R#",
+      "SES",
+      "FSF"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:leather"
+      },
+      "R": {
+          "item": "minecraft:rabbit_hide"
+      },
+      "S": {
+          "item": "minecraft:sweet_berries"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "F": {
+          "item": "minecraft:feather"
+      }
+  },
+  "result": {
+      "id": "minecraft:fox_spawn_egg",
+      "count": 1
+  }
+}

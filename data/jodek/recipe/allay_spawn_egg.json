@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#B#",
+      "#E#",
+      "#D#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:amethyst_shard"
+      },
+      "B": {
+          "item": "minecraft:blue_orchid"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "D": {
+          "item": "minecraft:diamond"
+      }
+  },
+  "result": {
+      "id": "minecraft:allay_spawn_egg"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#GS",
+      "RER",
+      "Z/A"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:glowstone_dust"
+      },
+      "G": {
+          "item": "minecraft:gunpowder"
+      },
+      "S": {
+          "item": "minecraft:sugar"
+      },
+      "R": {
+          "item": "minecraft:redstone"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "Z": {
+          "item": "minecraft:glass_bottle"
+      },
+      "/": {
+          "item": "minecraft:stick"
+      },
+      "A": {
+          "item": "minecraft:spider_eye"
+      }
+  },
+  "result": {
+      "id": "minecraft:witch_spawn_egg",
+      "count": 1
+  }
+}

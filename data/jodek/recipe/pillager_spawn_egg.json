@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#E#",
+      "#C#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:emerald"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "C": {
+          "item": "minecraft:crossbow"
+      }
+  },
+  "result": {
+      "id": "minecraft:pillager_spawn_egg",
+      "count": 1
+  }
+}

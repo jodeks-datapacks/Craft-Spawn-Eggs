@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " # ",
+      "RER",
+      "P P"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:rabbit_hide"
+      },
+      "R": {
+          "item": "minecraft:rabbit"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "P": {
+          "item": "minecraft:rabbit_foot"
+      }
+  },
+  "result": {
+      "id": "minecraft:rabbit_spawn_egg",
+      "count": 1
+  }
+}

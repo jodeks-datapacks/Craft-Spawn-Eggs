@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "# #",
+      "FEF",
+      "HHH"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:honeycomb"
+      },
+      "F": {
+          "item": "minecraft:feather"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "H": {
+          "item": "minecraft:honey_block"
+      }
+  },
+  "result": {
+      "id": "minecraft:bee_spawn_egg",
+      "count": 1
+  }
+}

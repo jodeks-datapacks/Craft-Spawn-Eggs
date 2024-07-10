@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "# #",
+      "#E#",
+      " H "
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:leather"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "H": {
+          "item": "minecraft:hay_block"
+      }
+  },
+  "result": {
+      "id": "minecraft:donkey_spawn_egg",
+      "count": 1
+  }
+}

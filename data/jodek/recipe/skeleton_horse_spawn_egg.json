@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#S#",
+      "#E#",
+      "# #"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:bone"
+      },
+      "S": {
+          "item": "minecraft:saddle"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      }
+  },
+  "result": {
+      "id": "minecraft:skeleton_horse_spawn_egg",
+      "count": 1
+  }
+}
