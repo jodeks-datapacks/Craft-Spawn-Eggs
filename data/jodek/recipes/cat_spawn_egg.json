@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "# #",
+      "SES",
+      "# #"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:cod"
+      },
+      "S": {
+          "item": "minecraft:string"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      }
+  },
+  "result": {
+      "item": "minecraft:cat_spawn_egg",
+      "count": 1
+  }
+}

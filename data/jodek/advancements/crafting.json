@@ -1,0 +1,18 @@
+{
+  "display": {
+      "icon": {
+          "item": "minecraft:crafting_table"
+      },
+      "title": "Crafting",
+      "description": "modrinth.com/collection/ETMwcosg",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false
+  },
+  "parent": "jodek:root",
+  "criteria": {
+      "tick": {
+          "trigger": "minecraft:tick"
+      }
+  }
+}

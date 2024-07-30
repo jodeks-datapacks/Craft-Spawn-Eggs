@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " # ",
+      "RER",
+      "RWR"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:tropical_fish"
+      },
+      "R": {
+          "item": "minecraft:rotten_flesh"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "W": {
+          "item": "minecraft:water_bucket"
+      }
+  },
+  "result": {
+      "item": "minecraft:drowned_spawn_egg",
+      "count": 1
+  }
+}

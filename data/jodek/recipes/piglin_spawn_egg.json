@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " g ",
+      "PEP",
+      "PCP"
+  ],
+  "key": {
+      "g": {
+          "item": "minecraft:gold_ingot"
+      },
+      "P": {
+          "item": "minecraft:porkchop"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "C": {
+          "item": "minecraft:crossbow"
+      }
+  },
+  "result": {
+      "item": "minecraft:piglin_spawn_egg",
+      "count": 1
+  }
+}

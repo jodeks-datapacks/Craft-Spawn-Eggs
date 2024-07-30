@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "# #",
+      "FEF",
+      "# #"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:wheat_seeds"
+      },
+      "F": {
+          "item": "minecraft:feather"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      }
+  },
+  "result": {
+      "item": "minecraft:parrot_spawn_egg",
+      "count": 1
+  }
+}

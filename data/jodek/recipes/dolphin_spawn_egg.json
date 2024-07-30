@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "# #",
+      "#E#",
+      "#W#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:tropical_fish"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "W": {
+          "item": "minecraft:water_bucket"
+      }
+  },
+  "result": {
+      "item": "minecraft:dolphin_spawn_egg",
+      "count": 1
+  }
+}

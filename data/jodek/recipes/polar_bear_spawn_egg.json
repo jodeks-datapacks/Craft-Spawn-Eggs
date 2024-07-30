@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#C#",
+      "CEC",
+      "SSS"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:salmon"
+      },
+      "C": {
+          "item": "minecraft:cod"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "S": {
+          "item": "minecraft:snow_block"
+      }
+  },
+  "result": {
+      "item": "minecraft:polar_bear_spawn_egg",
+      "count": 1
+  }
+}

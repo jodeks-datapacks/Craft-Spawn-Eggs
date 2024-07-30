@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      "#E#",
+      "#W#"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:leather"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "W": {
+          "item": "minecraft:wheat"
+      }
+  },
+  "result": {
+      "item": "minecraft:llama_spawn_egg",
+      "count": 1
+  }
+}

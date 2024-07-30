@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+      " # ",
+      " E ",
+      "LLL"
+  ],
+  "key": {
+      "#": {
+          "item": "minecraft:wheat"
+      },
+      "E": {
+          "item": "minecraft:egg"
+      },
+      "L": {
+          "item": "minecraft:leather"
+      }
+  },
+  "result": {
+      "item": "minecraft:mule_spawn_egg",
+      "count": 1
+  }
+}
