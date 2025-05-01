@@ -1,5 +1,6 @@
 {
   "values": [
-  "craftspawneggs:load"
+  "craftspawneggs:app/load_message",
+  "craftspawneggs:app/setup"
 ]
 }

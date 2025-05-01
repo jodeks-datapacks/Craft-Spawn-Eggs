@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "#S#",
+      "LEL",
+      "# #"
+    ],
+    "key": {
+      "#": "minecraft:bone",
+      "S": "minecraft:saddle",
+      "L": "minecraft:leather",
+      "E": "#craftspawneggs:eggs"
+    },
+    "result": {
+      "id": "minecraft:ravager_spawn_egg",
+      "count": 1
+    }
+  }
+  
