@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&zombified_piglin"
+              },
+              "score": "craftspawneggs.config"
+            },
+            "range": 0
+          }
+        ]
+      }
+    },
+    "recipe_check": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "recipes": {
+                  "craftspawneggs:zombified_piglin_spawn_egg": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftspawneggs:app/take_recipes/zombified_piglin_spawn_egg"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "#B#",
+        "#E#",
+        "#D#"
+    ],
+    "key": {
+        "#": "minecraft:amethyst_shard",
+        "B": "minecraft:blue_orchid",
+        "E": "#craftspawneggs:eggs",
+        "D": "minecraft:diamond"
+    },
+    "result": {
+        "id": "minecraft:allay_spawn_egg",
+        "count": 1
+    }
+}

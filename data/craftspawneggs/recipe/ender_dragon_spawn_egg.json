@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "JQJ",
+    "EME"
+  ],
+  "key": {
+    "#": "minecraft:ender_eye",
+    "D": "minecraft:dragon_head",
+    "J": "minecraft:dragon_breath",
+    "Q": "minecraft:dragon_egg",
+    "E": "minecraft:end_stone",
+    "M": "minecraft:end_crystal"
+  },
+  "result": {
+    "id": "minecraft:ender_dragon_spawn_egg",
+    "count": 1
+  }
+}

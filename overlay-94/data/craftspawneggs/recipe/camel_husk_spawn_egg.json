@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZZZ",
+    "#E#",
+    "CCC"
+  ],
+  "key": {
+    "#": "minecraft:cactus",
+    "C": "minecraft:sand",
+    "Z": "minecraft:rotten_flesh",
+    "E": "#craftspawneggs:eggs"
+  },
+  "result": {
+    "id": "minecraft:camel_husk_spawn_egg",
+    "count": 1
+  }
+}

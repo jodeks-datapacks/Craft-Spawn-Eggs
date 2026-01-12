@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        " # ",
+        "#E#",
+        " # "
+    ],
+    "key": {
+        "#": "minecraft:armadillo_scute",
+        "E": "#craftspawneggs:eggs"
+    },
+    "result": {
+        "id": "minecraft:armadillo_spawn_egg",
+        "count": 1
+    }
+}
