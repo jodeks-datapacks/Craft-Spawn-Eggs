@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": "minecraft:leather",
-        "B": "minecraft:beef",
+        "B": "#craftspawneggs:beef",
         "E": "#craftspawneggs:eggs"
     },
     "result": {

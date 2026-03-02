@@ -7,7 +7,7 @@
     ],
     "key": {
       "#": "minecraft:rabbit_hide",
-      "R": "minecraft:rabbit",
+      "R": "#craftspawneggs:rabbit",
       "E": "#craftspawneggs:eggs",
       "P": "minecraft:rabbit_foot"
     },

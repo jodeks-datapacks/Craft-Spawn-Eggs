@@ -8,7 +8,7 @@
     "key": {
         "#": "minecraft:feather",
         "E": "#craftspawneggs:eggs",
-        "C": "minecraft:chicken"
+        "C": "#craftspawneggs:chicken"
     },
     "result": {
         "id": "minecraft:chicken_spawn_egg",

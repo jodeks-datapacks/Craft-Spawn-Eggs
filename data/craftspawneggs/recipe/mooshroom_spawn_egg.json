@@ -7,7 +7,7 @@
     ],
     "key": {
       "#": "minecraft:red_mushroom",
-      "B": "minecraft:beef",
+      "B": "#craftspawneggs:beef",
       "E": "#craftspawneggs:eggs",
       "L": "minecraft:leather"
     },

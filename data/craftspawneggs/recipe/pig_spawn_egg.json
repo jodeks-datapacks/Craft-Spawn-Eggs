@@ -7,7 +7,7 @@
     ],
     "key": {
       "#": "minecraft:carrot",
-      "P": "minecraft:porkchop",
+      "P": "#craftspawneggs:porkchop",
       "E": "#craftspawneggs:eggs"
     },
     "result": {

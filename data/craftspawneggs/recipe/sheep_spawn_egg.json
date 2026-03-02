@@ -7,7 +7,7 @@
   ],
   "key": {
     "#": "#craftspawneggs:wool",
-    "M": "minecraft:mutton",
+    "M": "#craftspawneggs:mutton",
     "E": "#craftspawneggs:eggs"
   },
   "result": {
