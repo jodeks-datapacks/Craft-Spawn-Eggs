@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "#E#",
+    " C "
+  ],
+  "key": {
+    "#": "minecraft:bamboo",
+    "E": "#craft_spawn_eggs:eggs",
+    "C": "minecraft:cake"
+  },
+  "result": {
+    "id": "minecraft:panda_spawn_egg",
+    "count": 1
+  }
+}

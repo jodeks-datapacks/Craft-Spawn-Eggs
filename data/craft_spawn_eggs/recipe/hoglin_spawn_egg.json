@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "PEP",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:leather",
+    "P": "#craft_spawn_eggs:porkchop",
+    "E": "#craft_spawn_eggs:eggs"
+  },
+  "result": {
+    "id": "minecraft:hoglin_spawn_egg",
+    "count": 1
+  }
+}

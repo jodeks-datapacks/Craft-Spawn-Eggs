@@ -1,0 +1,7 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:soul_soil",
+    "minecraft:soul_sand"
+  ]
+}

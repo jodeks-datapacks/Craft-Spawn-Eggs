@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "EFE",
+    "EEE"
+  ],
+  "key": {
+    "#": "minecraft:ender_eye",
+    "E": "minecraft:ender_pearl",
+    "F": "#craft_spawn_eggs:eggs"
+  },
+  "result": {
+    "id": "minecraft:enderman_spawn_egg",
+    "count": 1
+  }
+}

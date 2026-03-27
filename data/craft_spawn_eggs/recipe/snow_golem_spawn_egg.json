@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#C#",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:snow_block",
+    "C": "minecraft:carved_pumpkin",
+    "E": "#craft_spawn_eggs:eggs"
+  },
+  "result": {
+    "id": "minecraft:snow_golem_spawn_egg",
+    "count": 1
+  }
+}

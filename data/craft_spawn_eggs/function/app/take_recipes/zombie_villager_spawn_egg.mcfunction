@@ -1,0 +1,3 @@
+advancement revoke @a only craft_spawn_eggs:take_recipes/zombie_villager_spawn_egg
+
+recipe take @a craft_spawn_eggs:zombie_villager_spawn_egg

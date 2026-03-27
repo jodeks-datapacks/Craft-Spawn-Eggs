@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#S#",
+    "FEF",
+    "#X#"
+  ],
+  "key": {
+    "#": "minecraft:music_disc_5",
+    "S": "minecraft:sculk_shrieker",
+    "F": "minecraft:sculk_sensor",
+    "E": "#craft_spawn_eggs:eggs",
+    "X": "minecraft:sculk_catalyst"
+  },
+  "result": {
+    "id": "minecraft:warden_spawn_egg",
+    "count": 1
+  }
+}

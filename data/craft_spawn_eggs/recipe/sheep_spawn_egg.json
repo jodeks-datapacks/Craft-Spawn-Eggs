@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "MEM",
+    "M M"
+  ],
+  "key": {
+    "#": "#craft_spawn_eggs:wool",
+    "M": "#craft_spawn_eggs:mutton",
+    "E": "#craft_spawn_eggs:eggs"
+  },
+  "result": {
+    "id": "minecraft:sheep_spawn_egg",
+    "count": 1
+  }
+}

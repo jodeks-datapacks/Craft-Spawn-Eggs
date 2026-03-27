@@ -1,6 +1,6 @@
 {
   "values": [
-  "craftspawneggs:app/load_message",
-  "craftspawneggs:app/setup"
-]
+    "craft_spawn_eggs:app/load_message",
+    "craft_spawn_eggs:app/setup"
+  ]
 }

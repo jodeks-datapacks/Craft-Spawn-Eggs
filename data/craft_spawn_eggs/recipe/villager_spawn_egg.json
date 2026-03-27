@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "WEG",
+    "#S#"
+  ],
+  "key": {
+    "#": "minecraft:emerald",
+    "B": "minecraft:book",
+    "W": "minecraft:wooden_hoe",
+    "E": "#craft_spawn_eggs:eggs",
+    "G": "minecraft:glass_bottle",
+    "S": "minecraft:wheat"
+  },
+  "result": {
+    "id": "minecraft:villager_spawn_egg",
+    "count": 1
+  }
+}

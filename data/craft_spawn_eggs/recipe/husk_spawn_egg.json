@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#R#",
+    "RER",
+    "#R#"
+  ],
+  "key": {
+    "#": "minecraft:sand",
+    "R": "minecraft:rotten_flesh",
+    "E": "#craft_spawn_eggs:eggs"
+  },
+  "result": {
+    "id": "minecraft:husk_spawn_egg",
+    "count": 1
+  }
+}

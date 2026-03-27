@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "#E#",
+        " C "
+    ],
+    "key": {
+        "#": "minecraft:feather",
+        "E": "#craft_spawn_eggs:eggs",
+        "C": "#craft_spawn_eggs:chicken"
+    },
+    "result": {
+        "id": "minecraft:chicken_spawn_egg",
+        "count": 1
+    }
+}

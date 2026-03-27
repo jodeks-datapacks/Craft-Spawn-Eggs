@@ -1,3 +1,0 @@
-advancement revoke @a only craftspawneggs:take_recipes/zombified_piglin_spawn_egg
-
-recipe take @a craftspawneggs:zombified_piglin_spawn_egg

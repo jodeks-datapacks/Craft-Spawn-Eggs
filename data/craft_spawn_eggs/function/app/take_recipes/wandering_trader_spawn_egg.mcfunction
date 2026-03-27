@@ -1,0 +1,3 @@
+advancement revoke @a only craft_spawn_eggs:take_recipes/wandering_trader_spawn_egg
+
+recipe take @a craft_spawn_eggs:wandering_trader_spawn_egg

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "MEM",
+    "HHH"
+  ],
+  "key": {
+    "#": "minecraft:goat_horn",
+    "M": "minecraft:milk_bucket",
+    "E": "#craft_spawn_eggs:eggs",
+    "H": "#craft_spawn_eggs:mutton"
+  },
+  "result": {
+    "id": "minecraft:goat_spawn_egg",
+    "count": 1
+  }
+}

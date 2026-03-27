@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "PEP",
+    "PGP"
+  ],
+  "key": {
+    "g": "minecraft:gold_ingot",
+    "P": "#craft_spawn_eggs:porkchop",
+    "E": "#craft_spawn_eggs:eggs",
+    "G": "minecraft:golden_axe"
+  },
+  "result": {
+    "id": "minecraft:piglin_brute_spawn_egg",
+    "count": 1
+  }
+}

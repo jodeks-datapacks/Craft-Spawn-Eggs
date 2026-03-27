@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:value_check",
+            "value": {
+              "type": "minecraft:score",
+              "target": {
+                "type": "minecraft:fixed",
+                "name": "&snow_golem"
+              },
+              "score": "craft_spawn_eggs.config"
+            },
+            "range": 0
+          }
+        ]
+      }
+    },
+    "recipe_check": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "recipes": {
+                  "craft_spawn_eggs:snow_golem_spawn_egg": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craft_spawn_eggs:app/take_recipes/snow_golem_spawn_egg"
+  }
+}

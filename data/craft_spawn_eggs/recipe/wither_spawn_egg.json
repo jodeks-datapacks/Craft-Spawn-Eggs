@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "SSS",
+    " S "
+  ],
+  "key": {
+    "#": "minecraft:wither_skeleton_skull",
+    "S": "#craft_spawn_eggs:soul_block"
+  },
+  "result": {
+    "id": "minecraft:wither_spawn_egg",
+    "count": 1
+  }
+}

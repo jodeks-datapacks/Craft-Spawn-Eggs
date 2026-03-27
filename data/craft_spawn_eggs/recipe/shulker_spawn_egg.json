@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#E#",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:shulker_shell",
+    "E": "#craft_spawn_eggs:eggs"
+  },
+  "result": {
+    "id": "minecraft:shulker_spawn_egg",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "RER",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:leather",
+    "R": "minecraft:rotten_flesh",
+    "E": "#craft_spawn_eggs:eggs"
+  },
+  "result": {
+    "id": "minecraft:zoglin_spawn_egg",
+    "count": 1
+  }
+}

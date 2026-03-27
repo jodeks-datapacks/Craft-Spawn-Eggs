@@ -1,0 +1,3 @@
+advancement revoke @a only craft_spawn_eggs:take_recipes/elder_guardian_spawn_egg
+
+recipe take @a craft_spawn_eggs:elder_guardian_spawn_egg
