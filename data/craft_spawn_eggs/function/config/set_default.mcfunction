@@ -318,3 +318,8 @@ data modify storage craft_spawn_eggs:root data.dialog_craft_zombified_piglin set
   execute unless score &zombie_nautilus craft_spawn_eggs.config = &zombie_nautilus craft_spawn_eggs.config run scoreboard players set &zombie_nautilus craft_spawn_eggs.config 1
   execute unless data storage craft_spawn_eggs:root data.craft_zombie_nautilus run data modify storage craft_spawn_eggs:root data.craft_zombie_nautilus set value 1
   data modify storage craft_spawn_eggs:root data.dialog_craft_zombie_nautilus set value "$(dialog_craft_zombie_nautilus)"
+
+# Sulfur Cube
+  execute unless score &sulfur_cube craft_spawn_eggs.config = &sulfur_cube craft_spawn_eggs.config run scoreboard players set &sulfur_cube craft_spawn_eggs.config 1
+  execute unless data storage craft_spawn_eggs:root data.craft_sulfur_cube run data modify storage craft_spawn_eggs:root data.craft_sulfur_cube set value 1
+  data modify storage craft_spawn_eggs:root data.dialog_craft_sulfur_cube set value "$(dialog_craft_sulfur_cube)"

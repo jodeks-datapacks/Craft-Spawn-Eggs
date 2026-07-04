@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S#S",
+    "#o#",
+    "S#S"
+  ],
+  "key": {
+    "S": "minecraft:sulfur",
+    "#": "minecraft:slime_ball",
+    "o": "minecraft:egg"
+  },
+  "result": {
+    "id": "minecraft:sulfur_cube_spawn_egg"
+  }
+}

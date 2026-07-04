@@ -6,10 +6,10 @@ type:"minecraft:multi_action",\
   "body": [\
     {\
       "type": "minecraft:plain_message",\
-      "contents": [\
+      "contents": {\
         "translate": "craft_spawn_eggs.config.description",\
         "fallback": "Individually enable or disable Spawn Egg Recipes"\
-      ]\
+      }\
     }\
   ],\
   inputs:\
@@ -188,7 +188,7 @@ type:"minecraft:multi_action",\
       type:"minecraft:boolean",\
       key:"dialog_craft_donkey",\
       "label": {\
-        "translate": "item.minecraft donkey_spawn_egg"\
+        "translate": "item.minecraft.donkey_spawn_egg"\
       },\
       initial:$(craft_donkey),\
       on_true:"1",\
