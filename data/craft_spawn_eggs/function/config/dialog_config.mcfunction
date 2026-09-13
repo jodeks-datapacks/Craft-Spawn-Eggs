@@ -106,6 +106,16 @@ type:"minecraft:multi_action",\
     },\
     {\
       type:"minecraft:boolean",\
+      key:"dialog_craft_camel_husk",\
+      "label": {\
+        "translate": "item.minecraft.camel_husk_spawn_egg"\
+      },\
+      initial:$(craft_camel_husk),\
+      on_true:"1",\
+      on_false:"0"\
+    },\
+    {\
+      type:"minecraft:boolean",\
       key:"dialog_craft_cat",\
       "label": {\
         "translate": "item.minecraft.cat_spawn_egg"\
@@ -141,6 +151,16 @@ type:"minecraft:multi_action",\
         "translate": "item.minecraft.cod_spawn_egg"\
       },\
       initial:$(craft_cod),\
+      on_true:"1",\
+      on_false:"0"\
+    },\
+    {\
+      type:"minecraft:boolean",\
+      key:"dialog_craft_copper_golem",\
+      "label": {\
+        "translate": "item.minecraft.copper_golem_spawn_egg"\
+      },\
+      initial:$(craft_copper_golem),\
       on_true:"1",\
       on_false:"0"\
     },\
@@ -426,6 +446,16 @@ type:"minecraft:multi_action",\
     },\
     {\
       type:"minecraft:boolean",\
+      key:"dialog_craft_nautilus",\
+      "label": {\
+        "translate": "item.minecraft.nautilus_spawn_egg"\
+      },\
+      initial:$(craft_nautilus),\
+      on_true:"1",\
+      on_false:"0"\
+    },\
+    {\
+      type:"minecraft:boolean",\
       key:"dialog_craft_ocelot",\
       "label": {\
         "translate": "item.minecraft.ocelot_spawn_egg"\
@@ -441,6 +471,16 @@ type:"minecraft:multi_action",\
         "translate": "item.minecraft.panda_spawn_egg"\
       },\
       initial:$(craft_panda),\
+      on_true:"1",\
+      on_false:"0"\
+    },\
+    {\
+      type:"minecraft:boolean",\
+      key:"dialog_craft_parched",\
+      "label": {\
+        "translate": "item.minecraft.parched_spawn_egg"\
+      },\
+      initial:$(craft_parched),\
       on_true:"1",\
       on_false:"0"\
     },\
@@ -676,6 +716,16 @@ type:"minecraft:multi_action",\
     },\
     {\
       type:"minecraft:boolean",\
+      key:"dialog_craft_sulfur_cube",\
+      "label": {\
+        "translate": "item.minecraft.sulfur_cube_spawn_egg"\
+      },\
+      initial:$(craft_sulfur_cube),\
+      on_true:"1",\
+      on_false:"0"\
+    },\
+    {\
+      type:"minecraft:boolean",\
       key:"dialog_craft_tadpole",\
       "label": {\
         "translate": "item.minecraft.tadpole_spawn_egg"\
@@ -836,6 +886,16 @@ type:"minecraft:multi_action",\
     },\
     {\
       type:"minecraft:boolean",\
+      key:"dialog_craft_zombie_nautilus",\
+      "label": {\
+        "translate": "item.minecraft.zombie_nautilus_spawn_egg"\
+      },\
+      initial:$(craft_zombie_nautilus),\
+      on_true:"1",\
+      on_false:"0"\
+    },\
+    {\
+      type:"minecraft:boolean",\
       key:"dialog_craft_zombie",\
       "label": {\
         "translate": "item.minecraft.zombie_spawn_egg"\
@@ -863,7 +923,7 @@ type:"minecraft:multi_action",\
       },\
     "action": {\
       type:"dynamic/run_command",\
-      template:"function craft_spawn_eggs:config/update/update_crafts {dialog_craft_allay:$(dialog_craft_allay), dialog_craft_armadillo:$(dialog_craft_armadillo), dialog_craft_axolotl:$(dialog_craft_axolotl), dialog_craft_bat:$(dialog_craft_bat), dialog_craft_bee:$(dialog_craft_bee), dialog_craft_blaze:$(dialog_craft_blaze), dialog_craft_bogged:$(dialog_craft_bogged), dialog_craft_breeze:$(dialog_craft_breeze), dialog_craft_camel:$(dialog_craft_camel), dialog_craft_cat:$(dialog_craft_cat), dialog_craft_cave_spider:$(dialog_craft_cave_spider), dialog_craft_chicken:$(dialog_craft_chicken), dialog_craft_cod:$(dialog_craft_cod), dialog_craft_cow:$(dialog_craft_cow), dialog_craft_creaking:$(dialog_craft_creaking), dialog_craft_creeper:$(dialog_craft_creeper), dialog_craft_dolphin:$(dialog_craft_dolphin), dialog_craft_donkey:$(dialog_craft_donkey), dialog_craft_drowned:$(dialog_craft_drowned), dialog_craft_elder_guardian:$(dialog_craft_elder_guardian), dialog_craft_ender_dragon:$(dialog_craft_ender_dragon), dialog_craft_enderman:$(dialog_craft_enderman), dialog_craft_endermite:$(dialog_craft_endermite), dialog_craft_evoker:$(dialog_craft_evoker), dialog_craft_fox:$(dialog_craft_fox), dialog_craft_frog:$(dialog_craft_frog), dialog_craft_ghast:$(dialog_craft_ghast), dialog_craft_glow_squid:$(dialog_craft_glow_squid), dialog_craft_goat:$(dialog_craft_goat), dialog_craft_guardian:$(dialog_craft_guardian), dialog_craft_happy_ghast:$(dialog_craft_happy_ghast), dialog_craft_hoglin:$(dialog_craft_hoglin), dialog_craft_horse:$(dialog_craft_horse), dialog_craft_husk:$(dialog_craft_husk), dialog_craft_illusioner:$(dialog_craft_illusioner), dialog_craft_iron_golem:$(dialog_craft_iron_golem), dialog_craft_llama:$(dialog_craft_llama), dialog_craft_magma_cube:$(dialog_craft_magma_cube), dialog_craft_mooshroom:$(dialog_craft_mooshroom), dialog_craft_mooshroom_brown:$(dialog_craft_mooshroom_brown), dialog_craft_mule:$(dialog_craft_mule), dialog_craft_ocelot:$(dialog_craft_ocelot), dialog_craft_panda:$(dialog_craft_panda), dialog_craft_parrot:$(dialog_craft_parrot), dialog_craft_phantom:$(dialog_craft_phantom), dialog_craft_pig:$(dialog_craft_pig), dialog_craft_piglin_brute:$(dialog_craft_piglin_brute), dialog_craft_piglin:$(dialog_craft_piglin), dialog_craft_pillager:$(dialog_craft_pillager), dialog_craft_polar_bear:$(dialog_craft_polar_bear), dialog_craft_pufferfish:$(dialog_craft_pufferfish), dialog_craft_rabbit:$(dialog_craft_rabbit), dialog_craft_ravager:$(dialog_craft_ravager), dialog_craft_salmon:$(dialog_craft_salmon), dialog_craft_sheep:$(dialog_craft_sheep), dialog_craft_shulker:$(dialog_craft_shulker), dialog_craft_silverfish:$(dialog_craft_silverfish), dialog_craft_skeleton_horse:$(dialog_craft_skeleton_horse), dialog_craft_skeleton:$(dialog_craft_skeleton), dialog_craft_slime:$(dialog_craft_slime), dialog_craft_sniffer:$(dialog_craft_sniffer), dialog_craft_snow_golem:$(dialog_craft_snow_golem), dialog_craft_spider:$(dialog_craft_spider), dialog_craft_squid:$(dialog_craft_squid), dialog_craft_stray:$(dialog_craft_stray), dialog_craft_strider:$(dialog_craft_strider), dialog_craft_tadpole:$(dialog_craft_tadpole), dialog_craft_trader_llama:$(dialog_craft_trader_llama), dialog_craft_tropical_fish:$(dialog_craft_tropical_fish), dialog_craft_turtle:$(dialog_craft_turtle), dialog_craft_vex:$(dialog_craft_vex), dialog_craft_villager:$(dialog_craft_villager), dialog_craft_vindicator:$(dialog_craft_vindicator), dialog_craft_wandering_trader:$(dialog_craft_wandering_trader), dialog_craft_warden:$(dialog_craft_warden), dialog_craft_witch:$(dialog_craft_witch), dialog_craft_wither:$(dialog_craft_wither), dialog_craft_wither_skeleton:$(dialog_craft_wither_skeleton), dialog_craft_wolf:$(dialog_craft_wolf), dialog_craft_zoglin:$(dialog_craft_zoglin), dialog_craft_zombie_horse:$(dialog_craft_zombie_horse), dialog_craft_zombie_villager:$(dialog_craft_zombie_villager), dialog_craft_zombie:$(dialog_craft_zombie), dialog_craft_zombified_piglin:$(dialog_craft_zombified_piglin)}"\
+      template:"function craft_spawn_eggs:config/update/update_crafts {dialog_craft_sulfur_cube:$(dialog_craft_sulfur_cube), dialog_craft_zombie_nautilus:$(dialog_craft_zombie_nautilus), dialog_craft_nautilus:$(dialog_craft_nautilus), dialog_craft_parched:$(dialog_craft_parched), dialog_craft_camel_husk:$(dialog_craft_camel_husk), dialog_craft_copper_golem:$(dialog_craft_copper_golem), dialog_craft_allay:$(dialog_craft_allay), dialog_craft_armadillo:$(dialog_craft_armadillo), dialog_craft_axolotl:$(dialog_craft_axolotl), dialog_craft_bat:$(dialog_craft_bat), dialog_craft_bee:$(dialog_craft_bee), dialog_craft_blaze:$(dialog_craft_blaze), dialog_craft_bogged:$(dialog_craft_bogged), dialog_craft_breeze:$(dialog_craft_breeze), dialog_craft_camel:$(dialog_craft_camel), dialog_craft_cat:$(dialog_craft_cat), dialog_craft_cave_spider:$(dialog_craft_cave_spider), dialog_craft_chicken:$(dialog_craft_chicken), dialog_craft_cod:$(dialog_craft_cod), dialog_craft_cow:$(dialog_craft_cow), dialog_craft_creaking:$(dialog_craft_creaking), dialog_craft_creeper:$(dialog_craft_creeper), dialog_craft_dolphin:$(dialog_craft_dolphin), dialog_craft_donkey:$(dialog_craft_donkey), dialog_craft_drowned:$(dialog_craft_drowned), dialog_craft_elder_guardian:$(dialog_craft_elder_guardian), dialog_craft_ender_dragon:$(dialog_craft_ender_dragon), dialog_craft_enderman:$(dialog_craft_enderman), dialog_craft_endermite:$(dialog_craft_endermite), dialog_craft_evoker:$(dialog_craft_evoker), dialog_craft_fox:$(dialog_craft_fox), dialog_craft_frog:$(dialog_craft_frog), dialog_craft_ghast:$(dialog_craft_ghast), dialog_craft_glow_squid:$(dialog_craft_glow_squid), dialog_craft_goat:$(dialog_craft_goat), dialog_craft_guardian:$(dialog_craft_guardian), dialog_craft_happy_ghast:$(dialog_craft_happy_ghast), dialog_craft_hoglin:$(dialog_craft_hoglin), dialog_craft_horse:$(dialog_craft_horse), dialog_craft_husk:$(dialog_craft_husk), dialog_craft_illusioner:$(dialog_craft_illusioner), dialog_craft_iron_golem:$(dialog_craft_iron_golem), dialog_craft_llama:$(dialog_craft_llama), dialog_craft_magma_cube:$(dialog_craft_magma_cube), dialog_craft_mooshroom:$(dialog_craft_mooshroom), dialog_craft_mooshroom_brown:$(dialog_craft_mooshroom_brown), dialog_craft_mule:$(dialog_craft_mule), dialog_craft_ocelot:$(dialog_craft_ocelot), dialog_craft_panda:$(dialog_craft_panda), dialog_craft_parrot:$(dialog_craft_parrot), dialog_craft_phantom:$(dialog_craft_phantom), dialog_craft_pig:$(dialog_craft_pig), dialog_craft_piglin_brute:$(dialog_craft_piglin_brute), dialog_craft_piglin:$(dialog_craft_piglin), dialog_craft_pillager:$(dialog_craft_pillager), dialog_craft_polar_bear:$(dialog_craft_polar_bear), dialog_craft_pufferfish:$(dialog_craft_pufferfish), dialog_craft_rabbit:$(dialog_craft_rabbit), dialog_craft_ravager:$(dialog_craft_ravager), dialog_craft_salmon:$(dialog_craft_salmon), dialog_craft_sheep:$(dialog_craft_sheep), dialog_craft_shulker:$(dialog_craft_shulker), dialog_craft_silverfish:$(dialog_craft_silverfish), dialog_craft_skeleton_horse:$(dialog_craft_skeleton_horse), dialog_craft_skeleton:$(dialog_craft_skeleton), dialog_craft_slime:$(dialog_craft_slime), dialog_craft_sniffer:$(dialog_craft_sniffer), dialog_craft_snow_golem:$(dialog_craft_snow_golem), dialog_craft_spider:$(dialog_craft_spider), dialog_craft_squid:$(dialog_craft_squid), dialog_craft_stray:$(dialog_craft_stray), dialog_craft_strider:$(dialog_craft_strider), dialog_craft_tadpole:$(dialog_craft_tadpole), dialog_craft_trader_llama:$(dialog_craft_trader_llama), dialog_craft_tropical_fish:$(dialog_craft_tropical_fish), dialog_craft_turtle:$(dialog_craft_turtle), dialog_craft_vex:$(dialog_craft_vex), dialog_craft_villager:$(dialog_craft_villager), dialog_craft_vindicator:$(dialog_craft_vindicator), dialog_craft_wandering_trader:$(dialog_craft_wandering_trader), dialog_craft_warden:$(dialog_craft_warden), dialog_craft_witch:$(dialog_craft_witch), dialog_craft_wither:$(dialog_craft_wither), dialog_craft_wither_skeleton:$(dialog_craft_wither_skeleton), dialog_craft_wolf:$(dialog_craft_wolf), dialog_craft_zoglin:$(dialog_craft_zoglin), dialog_craft_zombie_horse:$(dialog_craft_zombie_horse), dialog_craft_zombie_villager:$(dialog_craft_zombie_villager), dialog_craft_zombie:$(dialog_craft_zombie), dialog_craft_zombified_piglin:$(dialog_craft_zombified_piglin)}"\
     }\
   },\
   "actions": [\
@@ -874,7 +934,7 @@ type:"minecraft:multi_action",\
       },\
     "action": {\
       type:"dynamic/run_command",\
-      template:"function craft_spawn_eggs:config/update/update_crafts {dialog_craft_allay:$(dialog_craft_allay), dialog_craft_armadillo:$(dialog_craft_armadillo), dialog_craft_axolotl:$(dialog_craft_axolotl), dialog_craft_bat:$(dialog_craft_bat), dialog_craft_bee:$(dialog_craft_bee), dialog_craft_blaze:$(dialog_craft_blaze), dialog_craft_bogged:$(dialog_craft_bogged), dialog_craft_breeze:$(dialog_craft_breeze), dialog_craft_camel:$(dialog_craft_camel), dialog_craft_cat:$(dialog_craft_cat), dialog_craft_cave_spider:$(dialog_craft_cave_spider), dialog_craft_chicken:$(dialog_craft_chicken), dialog_craft_cod:$(dialog_craft_cod), dialog_craft_cow:$(dialog_craft_cow), dialog_craft_creaking:$(dialog_craft_creaking), dialog_craft_creeper:$(dialog_craft_creeper), dialog_craft_dolphin:$(dialog_craft_dolphin), dialog_craft_donkey:$(dialog_craft_donkey), dialog_craft_drowned:$(dialog_craft_drowned), dialog_craft_elder_guardian:$(dialog_craft_elder_guardian), dialog_craft_ender_dragon:$(dialog_craft_ender_dragon), dialog_craft_enderman:$(dialog_craft_enderman), dialog_craft_endermite:$(dialog_craft_endermite), dialog_craft_evoker:$(dialog_craft_evoker), dialog_craft_fox:$(dialog_craft_fox), dialog_craft_frog:$(dialog_craft_frog), dialog_craft_ghast:$(dialog_craft_ghast), dialog_craft_glow_squid:$(dialog_craft_glow_squid), dialog_craft_goat:$(dialog_craft_goat), dialog_craft_guardian:$(dialog_craft_guardian), dialog_craft_happy_ghast:$(dialog_craft_happy_ghast), dialog_craft_hoglin:$(dialog_craft_hoglin), dialog_craft_horse:$(dialog_craft_horse), dialog_craft_husk:$(dialog_craft_husk), dialog_craft_illusioner:$(dialog_craft_illusioner), dialog_craft_iron_golem:$(dialog_craft_iron_golem), dialog_craft_llama:$(dialog_craft_llama), dialog_craft_magma_cube:$(dialog_craft_magma_cube), dialog_craft_mooshroom:$(dialog_craft_mooshroom), dialog_craft_mooshroom_brown:$(dialog_craft_mooshroom_brown), dialog_craft_mule:$(dialog_craft_mule), dialog_craft_ocelot:$(dialog_craft_ocelot), dialog_craft_panda:$(dialog_craft_panda), dialog_craft_parrot:$(dialog_craft_parrot), dialog_craft_phantom:$(dialog_craft_phantom), dialog_craft_pig:$(dialog_craft_pig), dialog_craft_piglin_brute:$(dialog_craft_piglin_brute), dialog_craft_piglin:$(dialog_craft_piglin), dialog_craft_pillager:$(dialog_craft_pillager), dialog_craft_polar_bear:$(dialog_craft_polar_bear), dialog_craft_pufferfish:$(dialog_craft_pufferfish), dialog_craft_rabbit:$(dialog_craft_rabbit), dialog_craft_ravager:$(dialog_craft_ravager), dialog_craft_salmon:$(dialog_craft_salmon), dialog_craft_sheep:$(dialog_craft_sheep), dialog_craft_shulker:$(dialog_craft_shulker), dialog_craft_silverfish:$(dialog_craft_silverfish), dialog_craft_skeleton_horse:$(dialog_craft_skeleton_horse), dialog_craft_skeleton:$(dialog_craft_skeleton), dialog_craft_slime:$(dialog_craft_slime), dialog_craft_sniffer:$(dialog_craft_sniffer), dialog_craft_snow_golem:$(dialog_craft_snow_golem), dialog_craft_spider:$(dialog_craft_spider), dialog_craft_squid:$(dialog_craft_squid), dialog_craft_stray:$(dialog_craft_stray), dialog_craft_strider:$(dialog_craft_strider), dialog_craft_tadpole:$(dialog_craft_tadpole), dialog_craft_trader_llama:$(dialog_craft_trader_llama), dialog_craft_tropical_fish:$(dialog_craft_tropical_fish), dialog_craft_turtle:$(dialog_craft_turtle), dialog_craft_vex:$(dialog_craft_vex), dialog_craft_villager:$(dialog_craft_villager), dialog_craft_vindicator:$(dialog_craft_vindicator), dialog_craft_wandering_trader:$(dialog_craft_wandering_trader), dialog_craft_warden:$(dialog_craft_warden), dialog_craft_witch:$(dialog_craft_witch), dialog_craft_wither:$(dialog_craft_wither), dialog_craft_wither_skeleton:$(dialog_craft_wither_skeleton), dialog_craft_wolf:$(dialog_craft_wolf), dialog_craft_zoglin:$(dialog_craft_zoglin), dialog_craft_zombie_horse:$(dialog_craft_zombie_horse), dialog_craft_zombie_villager:$(dialog_craft_zombie_villager), dialog_craft_zombie:$(dialog_craft_zombie), dialog_craft_zombified_piglin:$(dialog_craft_zombified_piglin)}"\
+      template:"function craft_spawn_eggs:config/update/update_crafts {dialog_craft_sulfur_cube:$(dialog_craft_sulfur_cube), dialog_craft_zombie_nautilus:$(dialog_craft_zombie_nautilus), dialog_craft_nautilus:$(dialog_craft_nautilus), dialog_craft_parched:$(dialog_craft_parched), dialog_craft_camel_husk:$(dialog_craft_camel_husk), dialog_craft_copper_golem:$(dialog_craft_copper_golem), dialog_craft_allay:$(dialog_craft_allay), dialog_craft_armadillo:$(dialog_craft_armadillo), dialog_craft_axolotl:$(dialog_craft_axolotl), dialog_craft_bat:$(dialog_craft_bat), dialog_craft_bee:$(dialog_craft_bee), dialog_craft_blaze:$(dialog_craft_blaze), dialog_craft_bogged:$(dialog_craft_bogged), dialog_craft_breeze:$(dialog_craft_breeze), dialog_craft_camel:$(dialog_craft_camel), dialog_craft_cat:$(dialog_craft_cat), dialog_craft_cave_spider:$(dialog_craft_cave_spider), dialog_craft_chicken:$(dialog_craft_chicken), dialog_craft_cod:$(dialog_craft_cod), dialog_craft_cow:$(dialog_craft_cow), dialog_craft_creaking:$(dialog_craft_creaking), dialog_craft_creeper:$(dialog_craft_creeper), dialog_craft_dolphin:$(dialog_craft_dolphin), dialog_craft_donkey:$(dialog_craft_donkey), dialog_craft_drowned:$(dialog_craft_drowned), dialog_craft_elder_guardian:$(dialog_craft_elder_guardian), dialog_craft_ender_dragon:$(dialog_craft_ender_dragon), dialog_craft_enderman:$(dialog_craft_enderman), dialog_craft_endermite:$(dialog_craft_endermite), dialog_craft_evoker:$(dialog_craft_evoker), dialog_craft_fox:$(dialog_craft_fox), dialog_craft_frog:$(dialog_craft_frog), dialog_craft_ghast:$(dialog_craft_ghast), dialog_craft_glow_squid:$(dialog_craft_glow_squid), dialog_craft_goat:$(dialog_craft_goat), dialog_craft_guardian:$(dialog_craft_guardian), dialog_craft_happy_ghast:$(dialog_craft_happy_ghast), dialog_craft_hoglin:$(dialog_craft_hoglin), dialog_craft_horse:$(dialog_craft_horse), dialog_craft_husk:$(dialog_craft_husk), dialog_craft_illusioner:$(dialog_craft_illusioner), dialog_craft_iron_golem:$(dialog_craft_iron_golem), dialog_craft_llama:$(dialog_craft_llama), dialog_craft_magma_cube:$(dialog_craft_magma_cube), dialog_craft_mooshroom:$(dialog_craft_mooshroom), dialog_craft_mooshroom_brown:$(dialog_craft_mooshroom_brown), dialog_craft_mule:$(dialog_craft_mule), dialog_craft_ocelot:$(dialog_craft_ocelot), dialog_craft_panda:$(dialog_craft_panda), dialog_craft_parrot:$(dialog_craft_parrot), dialog_craft_phantom:$(dialog_craft_phantom), dialog_craft_pig:$(dialog_craft_pig), dialog_craft_piglin_brute:$(dialog_craft_piglin_brute), dialog_craft_piglin:$(dialog_craft_piglin), dialog_craft_pillager:$(dialog_craft_pillager), dialog_craft_polar_bear:$(dialog_craft_polar_bear), dialog_craft_pufferfish:$(dialog_craft_pufferfish), dialog_craft_rabbit:$(dialog_craft_rabbit), dialog_craft_ravager:$(dialog_craft_ravager), dialog_craft_salmon:$(dialog_craft_salmon), dialog_craft_sheep:$(dialog_craft_sheep), dialog_craft_shulker:$(dialog_craft_shulker), dialog_craft_silverfish:$(dialog_craft_silverfish), dialog_craft_skeleton_horse:$(dialog_craft_skeleton_horse), dialog_craft_skeleton:$(dialog_craft_skeleton), dialog_craft_slime:$(dialog_craft_slime), dialog_craft_sniffer:$(dialog_craft_sniffer), dialog_craft_snow_golem:$(dialog_craft_snow_golem), dialog_craft_spider:$(dialog_craft_spider), dialog_craft_squid:$(dialog_craft_squid), dialog_craft_stray:$(dialog_craft_stray), dialog_craft_strider:$(dialog_craft_strider), dialog_craft_tadpole:$(dialog_craft_tadpole), dialog_craft_trader_llama:$(dialog_craft_trader_llama), dialog_craft_tropical_fish:$(dialog_craft_tropical_fish), dialog_craft_turtle:$(dialog_craft_turtle), dialog_craft_vex:$(dialog_craft_vex), dialog_craft_villager:$(dialog_craft_villager), dialog_craft_vindicator:$(dialog_craft_vindicator), dialog_craft_wandering_trader:$(dialog_craft_wandering_trader), dialog_craft_warden:$(dialog_craft_warden), dialog_craft_witch:$(dialog_craft_witch), dialog_craft_wither:$(dialog_craft_wither), dialog_craft_wither_skeleton:$(dialog_craft_wither_skeleton), dialog_craft_wolf:$(dialog_craft_wolf), dialog_craft_zoglin:$(dialog_craft_zoglin), dialog_craft_zombie_horse:$(dialog_craft_zombie_horse), dialog_craft_zombie_villager:$(dialog_craft_zombie_villager), dialog_craft_zombie:$(dialog_craft_zombie), dialog_craft_zombified_piglin:$(dialog_craft_zombified_piglin)}"\
     }\
     }\
   ]\
